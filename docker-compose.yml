@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cowrie1:
+    image: cowrie/cowrie:latest
+    ports:
+      - "2222:2222"
